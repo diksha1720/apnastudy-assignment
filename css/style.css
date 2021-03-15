@@ -1,0 +1,241 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    color: #828bb2;
+    font-family: Roboto,sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    position: relative;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+h2{
+font-family: Roboto,sans-serif;
+    color: #222;
+    line-height: 1.2em;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: bold;
+    font-size:4rem;
+}
+h4{
+  color:#fff;
+}
+
+p, a{
+  color:grey;
+}
+
+
+#nav-bar {
+  position: sticky;
+  top:0;
+  z-index: 10;
+}
+.text-capitalize{
+  font-weight:bold;
+  font-size:3rem;
+}
+.text-left {
+    text-align: left!important;
+}
+.navbar {
+  background: linear-gradient(to right,  #7C32FF,#B737E0);
+  padding: 20px !important;
+
+}
+/* Logo resize */
+.navbar-brand img {
+  height: 3rem;
+  /* padding-left: 2rem; */
+  padding-right:4rem;
+}
+
+.navbar-nav {
+  margin-right: 1rem;
+
+}
+
+.navbar-nav li {
+  margin-left:20px;
+  font-size:12px;
+}
+.dropdown-item{
+  font-size:12px;
+  font-weight:bold;
+  padding:15px;
+}
+
+
+
+.navbar-nav .nav-item .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+  float: right;
+  text-align: left;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  /* color: #7C32FF !important; */
+}
+
+.fa-bars {
+  color: #fff !important;
+  font-size: 25px !important;
+}
+
+.navbar-toggler {
+  outline: none !important;
+}
+
+/* --------- Banner ---------- */
+.banner {
+  background: linear-gradient(to right, #7C32FF, #B737E0);
+  /* background-image: url(https://www.apnastudy.com/home/img/home-banner-bg.png); */
+  color: #fff;
+  /* padding-top: 5%; */
+}
+.home-banner-left{
+  margin-top:50px;
+}
+.home-banner-right{
+  margin-top:5px;
+}
+
+
+.other-feature{
+  top:0;
+}
+.other-feature-area{
+  margin-top:50px;
+
+}
+.other-feature-area p{
+  color:darkgrey;
+}
+.other-feature-area h2{
+  font-size:2.5rem;
+  font-weight:bold;
+}
+.setion-title p{
+  width:33%;
+}
+.feature-item i {
+    font-size: 30px;
+    color: #828bb2;
+    padding-right:10px;
+}
+.other-feature-item i {
+    font-size: 36px;
+    color: #222;
+  }
+
+.d-flex {
+    display: flex!important;
+}
+
+.vl {
+  border-left: 1px solid grey;
+  height: 170px;
+  opacity:20%;
+}
+
+.other-feature-item {
+    padding: 50px 40px;
+    background: #f2f3f7;
+    margin-bottom: 30px;
+    -webkit-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+}
+.other-feature-item:hover {
+    background: #fff;
+    -webkit-box-shadow: 0 10px 30px 0 rgb(0 0 0 / 8%);
+    box-shadow: 0 10px 30px 0 rgb(0 0 0 / 8%);
+.promo-title {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-top: 3em;
+}
+.feature-inner
+{
+
+}
+.join-title {
+  font-size: 1.44rem;
+}
+
+.link-play {
+  text-decoration: none;
+}
+
+.link-play:hover {
+  color: #B737E0;
+  text-decoration: none !important;
+}
+
+.play-btn {
+  width: 45px;
+  margin: 20px 0;
+  margin-right: 2em;
+  text-decoration: none !important;
+  transition: transform 1.2s;
+}
+
+.play-btn:hover {
+  color: #444;
+  text-decoration: none !important;
+  transform: scale(1.2);
+}
+
+.banner a {
+  color: #fff;
+  text-decoration: none !important;
+}
+
+.img-fluid {
+  margin-top: 0;
+  padding-top:0;
+}
+
+.bottom-img {
+  width: 100%;
+  vertical-align: middle;
+border-style: none;
+}
+
+/* ---------- Services --------- */
+
+/* ----- Footer ------*/
+@media (max-width: 991px)
+.section-gap {
+    padding: 60px 0;
+}
+.section-gap {
+    padding: 120px 0;
+}
+@media (max-width: 991px)
+.section-gap {
+    padding: 60px 0;
+}
+.section-gap {
+    padding: 500px 0;
+}
+.footer-area container{
+  margin-top:200px;
+}
+.footer-area  a{
+  color:white;
+}
+
+.footer-area i {
+    font-size: 30px;
+    color: #828bb2;
+    padding-right:10px;
+}
+/*-------- Social Media icons ---------- */
